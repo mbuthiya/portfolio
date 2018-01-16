@@ -1,0 +1,170 @@
+body,html{
+	margin: 0;
+	padding:0;
+	background-color: black;
+}
+section{
+	min-height: 100vh;
+}
+.navbar{
+	min-height: 0;
+}
+.navbar ul {
+	list-style-type: none;
+	padding: 0;
+	margin :0;
+	position: fixed;
+	top: 20vh;
+
+}
+.navbar ul li a {
+	display: block;
+	margin-bottom: 2vw;	
+	text-decoration: none;
+	font-size: 1.4vw;
+	text-align: center;
+	padding: 4vw 1vw 1vw 0vw;
+	font-family: 'Work Sans', sans-serif;
+	color: white;
+	font-weight: bolder;
+	text-transform: uppercase;
+
+	/*rotate*/
+	-ms-transform: rotate(270deg); /* IE 9 */
+    -webkit-transform: rotate(270deg); /* Safari 3-8 */
+	transform: rotate(270deg);
+	
+}
+.navbar ul li a:hover {
+	border-bottom: 1px solid white
+
+}
+.navbar ul li a:active {
+	border-bottom: 1px solid white
+
+}
+.first-section{
+	background: linear-gradient(to left,
+      rgba(0, 0, 0, 1), 
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 1)
+      ),
+      url("../images/leon-contreras-447382.jpg") no-repeat center center;
+      background-attachment: fixed;
+}
+
+.first-section div{
+	margin: 40vh 10vh 0 0;
+	float: right;
+}
+
+.first-section h2{
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 4vw;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 0.5vw;
+	
+}
+.first-section p{
+	font-family: 'Work Sans', sans-serif;
+	font-size: 1.5vw;
+	color: white;
+	text-transform: capitalize;
+	letter-spacing: 0.4vw;
+	
+}
+
+.second-section p{
+	margin:0;
+	padding: 50vh 10vw 0 10vw;
+	color: white;
+	text-align: center;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 3vw;
+	font-weight: bolder;
+	text-transform: capitalize;
+}
+.second-section p cite{
+	font-family: 'Fredericka the Great', cursive;
+
+}
+.contact-section{
+	background: linear-gradient(to left,
+      rgba(0, 0, 0, 1), 
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 1)
+      ),
+      url("../images/h-heyerlein-386302.jpg") no-repeat center center;
+      background-size: cover;
+}
+.contact-section h3{
+	color: white;
+	font-family: 'Fredericka the Great', cursive;
+	text-transform: capitalize;
+	font-size: 4vw;
+	text-align: center;
+	letter-spacing: 1vw;
+}
+.contact-section .form{
+	float: right;
+	margin-top: 10vh;
+	margin-right: 10vw;	
+
+}
+.contact-section .form input{
+	margin-bottom: 2vh;
+	padding: 1vw;
+	width: 30vw;
+	background: rgba(0,0,0,0.6);
+	color: white;
+	font-family: 'Work Sans', sans-serif;
+	border:2px solid white;
+	text-transform: capitalize;
+}
+
+.contact-section .form textarea{
+	margin-bottom: 2vh;
+	padding: 1vw;
+	width: 30vw;
+	background: rgba(0,0,0,0.6);
+	color: white;
+	font-family: 'Work Sans', sans-serif;
+	border:2px solid white;
+	text-transform: capitalize;
+}
+.contact-section .form .btn{
+	margin-top: 1vh;
+	width: 8vw;
+	margin-left: 24vw;
+	padding: 0.8vw
+	border:1px solid white;
+	background-color: black;
+	color: white;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 1vw;
+	font-weight: bold;
+	border-radius: 5%;
+
+}
+.contact-section .form .btn:hover{
+	background-color: white;
+	color: black;
+	
+}
+footer{
+	margin:0;
+	padding-top: 5vh;
+	padding-right: 5vw;
+
+}
+footer p{
+	color: white;
+	text-align: center;
+}
+footer p span{
+	color: red;
+	
+}
