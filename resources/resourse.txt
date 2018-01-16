@@ -1,0 +1,10 @@
+Main Background Photo
+---------------------- 
+Leon contreras [https://unsplash.com/photos/vA5OhGK8hKE]
+
+Google Fonts 
+----------------------
+<link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Work+Sans" rel="stylesheet">
+
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Work Sans', sans-serif;
