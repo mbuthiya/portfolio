@@ -1,0 +1,62 @@
+body{
+    font-family: Dosis;
+}
+
+.navbar-container{
+    margin-top: 2vh;
+    height: 10vh;
+}
+
+.body-container{
+    height: 88vh;
+}
+
+.text-section{
+    margin-top: 130px;
+}
+
+.text-section h1{
+    font-size: 96px;
+    margin-bottom: 20px;
+    font-weight: medium;
+    color: #4C1036;
+}
+
+.text-section p{
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.readEssays {
+    padding: 10px 40px;
+    border: 1px solid #4C1036;
+    background-color: #4C1036;
+    color: white;
+    font-size: 18px;
+    font-weight: medium;
+    border-radius: 5px;
+    box-shadow: 0px 10px 15px 0px rgba(76, 16, 54, 0.5);
+    transition: box-shadow 0.1s ease
+}
+
+.readEssays:hover{
+    text-decoration: none;
+    color: white;
+    box-shadow: none;
+    
+}
+
+@media (max-width: 576px) {
+    .text-section h1 {
+        font-size: 56px;
+    }
+
+    .text-section p {
+        font-size: 24px;
+        margin-bottom: 40px;
+    }
+
+    .header-image{
+        display: none;
+    }
+}
