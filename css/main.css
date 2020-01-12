@@ -32,7 +32,7 @@ body{
 .readEssays {
     padding: 10px 40px;
     border: 1px solid #4C1036;
-    background-color: #4C1036;
+    background-color: rgb(139, 124, 134);
     color: white;
     font-size: 18px;
     font-weight: medium;
