@@ -5,71 +5,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Dukangu - James Muriuki</title>
-    <link rel="shortcut icon" href="images/Favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
+
+    <!-- Boostrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Teko&display=swap" rel="stylesheet">
+
+    <!-- Main CSS -->
     <link rel="stylesheet" href="css/main.css">
+    <title>Dukangu</title>
 </head>
 
 <body>
 
-    <!-- Navigation Bar -->
-    <div class="container navbar-container">
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="index.html"><img src="images/Logo.svg" class="img-fluid" alt=""></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="essays.html"> Essays <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Download Resume</a>
-                    </li>
-                </ul>
-            </div>
-
-        </nav>
-    </div>
-    <!-- Landing Page Body -->
-    <div class="container-fluid body-container">
+    <div class="container-fluid" id="content">
         <div class="row">
-            <div class="col-sm-1 col-md-1"></div>
-            <div class="col-sm-10 col-md-6 text-section">
-                <h1>Hi there ...</h1>
-                <p>My name is James Muriuki and welcome to my shop. This is a living journal where I document my
-                    experiences and learnings
-                    on my life as a Product designer, Entrepreneur and Adventurer.</p>
-
-                <a href="" class="readEssays">Read my Essays</a>
-            </div>
-            <div class="col-sm-1 col-md-1"></div>
-            <div class="col-sm-0 col-md-3 header-image">
-                <img src="images/download.png" alt="">
+            <!-- Header content -->
+            <div class="col-sm-0 col-md-5 header-content">
+                <div class="affixs">
+                    <h1 class="text-center">Dukangu</h1>
+                    <img src="images/eastwood-come-back-later 1.png" alt="Blog cover photo" class="img-responsive">
+                    <p class="text-center">Currently reading: <span>The Personal MBA</span></p>
+                </div>
             </div>
 
-            <div class="col-sm-1 col-md-1"></div>
+            <!-- Blog content -->
+            <div class="col-sm-12 col-md-6 blog-content">
+                <h3>Every week, I write about my experience as a first time founder building a startup in Africa</h3>
+                <div class="personal-information">
+                    <img src="images/james.png" alt="" class="img-responsive">
+                    <div>
+                        <h4>James Muriuki <span>@kiki_muriuki</span></h4>
+                        <p>I wanted to document the real experience of starting a software company in Africa. I have
+                            no idea what I am doing. But in the words of Mark Twain “The secret of getting ahead is
+                            getting started.” </p>
+                    </div>
+                </div>
+
+                <!-- Blogs -->
+
+                <div class="row blogs-list">
+                    <div class="col-sm-12 blog-item">
+                        <!-- Blog Image -->
+                            <img src="images/james.png" alt="Blog Image" class="img-responsive">
+                        
+                        <div">
+                            <h5>Blog title</h5>
+                            <a href="">Read</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
-    <!-- Javascript Files -->
+
+
+    <!-- Jquery -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+
+    <!-- Bootstrap Javascript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
     </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-    </script>
+
 </body>
 
 </html>
