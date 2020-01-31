@@ -100,9 +100,9 @@
     
 }
 
-@media only screen and (max-width: 490px) {
+@media only screen and (max-width: 400px) {
     .personal-information h4 {
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 700;
         font-weight: Roboto;
         margin-right: 15px;
@@ -115,7 +115,7 @@
 
     .personal-information p {
         color: #827E7E;
-        font-size: 14px;
+        font-size: 12px;
         margin-top: 10px;
     }
 }
