@@ -53,7 +53,7 @@
     margin-right: 15px;
 }
 
-.personal-information h4 span{
+.personal-information h4 span a{
     color: #914B50;
     font-weight: normal;
 }
@@ -98,4 +98,24 @@
     margin-top: 40px;
     font-weight: bolder;
     
+}
+
+@media only screen and (max-width: 490px) {
+    .personal-information h4 {
+        font-size: 16px;
+        font-weight: 700;
+        font-weight: Roboto;
+        margin-right: 15px;
+    }
+
+    .personal-information h4 span a {
+        color: #914B50;
+        font-weight: normal;
+    }
+
+    .personal-information p {
+        color: #827E7E;
+        font-size: 14px;
+        margin-top: 10px;
+    }
 }
