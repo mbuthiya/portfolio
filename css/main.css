@@ -1,4 +1,155 @@
-@font-face {
-  font-family: Poppins;
-  src: url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,900;1,400;1,600&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,900;1,400;1,600&display=swap');
+
+
+
+html{
+    font-family: Poppins;
+    margin: 2% 5% 0 5%;
+}
+
+/* Navigaton Designs */
+#navigation nav{
+    display: flex;
+    justify-content:space-between;
+}
+
+#navigation li{
+    list-style-type: none;
+}
+
+#navigation .nav-header li a, #navigation .nav-header li a:hover{
+    list-style-type: none;
+    text-decoration: none;
+    color: #88665D;
+    font-size: 32px;
+
+}
+
+#navigation .main-navigation{
+    display: flex;
+    justify-content: space-between;
+}
+
+#navigation .main-navigation li{
+    margin-right: 83px;
+}
+
+#navigation .main-navigation li a, #navigation .main-navigation li a:hover{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+#index-body{
+ margin-top: 80px; 
+ width: 80vw;  
+}
+#index-body h1{
+    font-weight: 600;
+    font-size: 62px;
+    color: #88665D;
+}
+
+#index-body .note{
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+}
+
+#index-body .highlight{
+    font-size: 18px;
+    font-weight: 600;
+    color: #C2B97F;
+}
+#index-body .highlight a{
+    font-size: 18px;
+    font-weight: 600;
+    color: #C2B97F;
+}
+
+#index-body p{
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+#index-body .social-icons{
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#index-body .social-icons img{
+    width: 40px;
+    margin-right:20px ;
+}
+
+@media only screen and (max-width: 600px) {
+    html{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        padding: 5%;
+    }
+
+    #navigation nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #navigation .nav-header li a, #navigation .nav-header li a:hover{
+        list-style-type: none;
+        text-decoration: none;
+        color: #88665D;
+        font-size: 25px;
+
+    } 
+
+    #navigation .main-navigation{
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 10px;
+    }
+
+    #navigation .main-navigation li{
+        margin-right: 20px;
+    }
+
+    #index-body{
+        margin-top: 40px; 
+         
+    }
+    #index-body h1{
+        font-weight: 600;
+        font-size: 40px;
+    }
+
+    #index-body .note{
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    }
+
+    #index-body .highlight{
+        font-size: 16px;
+    }
+    #index-body .highlight a{
+        font-size: 16px;
+    }
+
+    #index-body p{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    #index-body .social-icons{
+        margin-top: 20px;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    #index-body .social-icons img{
+        width: 30px;
+        margin-right:10px ;
+    }
 }
