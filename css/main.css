@@ -117,6 +117,7 @@ html{
 .single-blog h2{
     font-size: 30px;
     font-weight: 600;
+    color: #88665D;
 }
 
 .single-blog img{
@@ -136,6 +137,24 @@ html{
 .single-blog p{
     margin: 50px 0;
     font-size: 15px;
+}
+
+/* Work List */
+.empty-template{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.empty-template img{
+    width: 30vw;
+}
+
+.empty-template p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #88665D;
 }
 @media only screen and (max-width: 600px) {
     html{
@@ -209,8 +228,12 @@ html{
     }
 
     /* Blog */
+
+    .section-header{
+        margin-top: 40px;
+    }
     .section-header p{
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 500;
         width: 80vw;
         font-style: italic;
@@ -256,6 +279,19 @@ html{
     .single-blog p{
         margin: 20px 0;
         font-size: 14px;
+    }
+
+    /* Work List */
+
+    .empty-template img{
+        width: 70vw;
+    }
+
+    .empty-template p{
+        font-size: 16px;
+        font-weight: 600;
+        color: #88665D;
+        text-align: center;
     }
    
 }
