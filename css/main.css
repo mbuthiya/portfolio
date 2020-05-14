@@ -25,6 +25,11 @@ html{
 
 }
 
+#navigation .main-navigation .active a, #navigation .main-navigation  .active a:hover{
+    color: #C2B97F;
+
+}
+
 #navigation .main-navigation{
     display: flex;
     justify-content: space-between;
@@ -83,13 +88,63 @@ html{
     margin-right:20px ;
 }
 
+
+/* Blog list */
+.section-header{
+    margin-top: 80px;
+}
+
+.section-header p{
+    font-size: 25px;
+    font-weight: 500;
+    width: 50vw;
+    font-style: italic;
+}
+
+#blog-blog-list{
+    display: flex;
+    margin-top: 50px;
+}
+
+.single-blog{
+    flex: 40%;
+    padding: 3%;
+    margin: 2%;
+    box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.15);
+    border-radius: 5px;
+}
+
+.single-blog h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.single-blog img{
+ height: 200px;
+}
+
+.single-blog a {
+    background-color: #C2B97F;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 2px;
+
+}
+
+.single-blog p{
+    margin: 50px 0;
+    font-size: 15px;
+}
 @media only screen and (max-width: 600px) {
     html{
         margin: 0;
         padding: 0;
     }
     body{
-        padding: 5%;
+        padding: 5% 3%;
+        margin: 0;
     }
 
     #navigation nav{
@@ -152,4 +207,55 @@ html{
         width: 30px;
         margin-right:10px ;
     }
+
+    /* Blog */
+    .section-header p{
+        font-size: 18px;
+        font-weight: 500;
+        width: 80vw;
+        font-style: italic;
+    }
+
+    #blog-blog-list{
+        display: flex;
+        margin-top: 50px;
+        flex-direction: column;
+    }
+
+    .single-blog{
+        flex: 100%;
+        margin: 0;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        
+    
+    }
+
+    .single-blog h2{
+        font-size: 20px;
+        font-weight: 600;
+        margin: 5px;
+        text-align: center;
+    }
+
+    .single-blog img{
+        width: 100%;
+    }
+
+    .single-blog a {
+        background-color: #C2B97F;
+        text-decoration: none;
+        font-size: 14px;
+        padding: 10px 20px;
+        color: white;
+        border-radius: 2px;
+        margin-bottom: 50px;
+
+    }
+
+    .single-blog p{
+        margin: 20px 0;
+        font-size: 14px;
+    }
+   
 }
